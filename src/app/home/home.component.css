@@ -1,0 +1,28 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* .art {
+  background-color: rgb(211, 111, 111, 0.9);
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+} */
+
+.bart {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.35),
+      rgba(0, 0, 0, 0.75)
+    ),
+    url("src/assets/congreen.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
