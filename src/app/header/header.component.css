@@ -1,0 +1,41 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  color: green;
+  margin: 0px;
+  padding: 0px;
+}
+
+h3{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.main-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
