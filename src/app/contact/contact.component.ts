@@ -1,15 +1,20 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from "@angular/core";
+import { NgForm } from "@angular/forms";
+import { Contact } from "../interface/contact";
 
 @Component({
-  selector: 'app-contact',
-  templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.css']
+  selector: "app-contact",
+  templateUrl: "./contact.component.html",
+  styleUrls: ["./contact.component.css"],
 })
 export class ContactComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
+  @Output() added = new EventEmitter<Contact>();
+  addContact(form: NgForm) {
+    this.added.emit(form.value);
+    form.reset();
   }
 
+  constructor() {}
+
+  ngOnInit(): void {}
 }
