@@ -1,0 +1,37 @@
+.art {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.35),
+      rgba(0, 0, 0, 0.75)
+    ),
+    url("src/assets/congreen.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.mark {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tim {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+p {
+  color: #4cc62a;
+}
+
+h2 {
+  color: #3eff08;
+}

@@ -3,14 +3,13 @@ body {
   padding: 0px;
 }
 
-
 .bart {
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.35),
       rgba(0, 0, 0, 0.75)
     ),
-    url("src/assets/congreen.jpg");
+    url("src/assets/aboutLeaf.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

@@ -1,14 +1,16 @@
-<app-header></app-header>
-<div class="container">
-  <form #addForm="ngForm" (ngSubmit)="addContact(addForm)">
-    <label for="name">NAME</label>
-    <input class="input" type="text" id="name" name="name" ngModel />
-    <label for="email">EMAIL</label>
-    <input class="input" type="text" id="email" name="email" ngModel />
-    <label for="links">LINKS</label>
-    <input class="input" type="text" id="links" name="links" ngModel />
-    <label for="what">WHAT'S ON YOUR MIND?</label>
-    <input class="input" type="text" id="what" name="what" ngModel />
-    <button>SUBMIT</button>
-  </form>
+<div class="sam">
+  <app-header></app-header>
+  <div class="container">
+    <form #addForm="ngForm" (ngSubmit)="addContact(addForm)">
+      <label for="name">NAME</label>
+      <input class="input" type="text" id="name" name="name" ngModel />
+      <label for="email">EMAIL</label>
+      <input class="input" type="text" id="email" name="email" ngModel />
+      <label for="links">LINKS</label>
+      <input class="input" type="text" id="links" name="links" ngModel />
+      <label for="what">WHAT'S ON YOUR MIND?</label>
+      <input class="input" type="text" id="what" name="what" ngModel />
+      <button>SUBMIT</button>
+    </form>
+  </div>
 </div>
